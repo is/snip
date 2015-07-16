@@ -1,0 +1,4 @@
+#!/bin/sh
+
+tmux setw allow-rename off
+tmux rename-window $1
